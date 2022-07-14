@@ -1,0 +1,64 @@
+#page {
+  font-family: sans-serif;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+h1:hover {
+  background-color: black;
+  color: white;
+  transition: 0.25s ease-in-out;
+}
+
+.anchor {
+  font-family: sans-serif;
+  font-stretch: extra-expanded;
+  font-weight: bolder;
+}
+
+.anchor:hover {
+  color: aqua;
+  transition: 0.15s ease-in-out;
+}
+
+.border {
+  margin: auto auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+input {
+  margin: 0.5% 0;
+}
+
+.p {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+}
